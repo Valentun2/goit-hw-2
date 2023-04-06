@@ -28,6 +28,7 @@ body {
   text-transform: uppercase;
   color: var(--color-logo);
 }
+
 .logo-s {
   color: var(--main-color);
 }
