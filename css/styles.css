@@ -65,6 +65,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--secondary-color);
  background: var(--color-logo);
+ cursor: pointer;
 }
 
 .features {
@@ -128,6 +129,7 @@ line-height: 1,5;
 letter-spacing: 0.04em;
 color: var(--color-logo);
 background: var(--third-color);
+cursor: pointer;
 }
 .button-portfolio:hover,
 .button-portfolio:focus{
