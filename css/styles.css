@@ -1,0 +1,137 @@
+:root {
+  --main-color: #2e2f42;
+  --color-logo: #4d5ae5;
+  --secondary-color: #ffffff;
+  --color-text: #434455;
+  --third-color: #f4f4fd;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-color);
+  background: var(--color-background-main);
+}
+.logo {
+  font-family: "Raleway" sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1,16;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-logo);
+}
+.logo-s {
+  color: var(--main-color);
+}
+.list-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1,5;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.contact-header {
+  font-size: 16px;
+  line-height: 1,5;
+  letter-spacing: 0.02em;
+  font-style: normal;
+
+  color: var(--color-text);
+}
+.hero {
+  background: var(--main-color);
+}
+.title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1,07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1,5;
+  letter-spacing: 0.04em;
+  color: var(--secondary-color);
+ background: var(--color-logo);
+}
+
+.features {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 0.02em;
+}
+.features-text {
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+
+  color: var(--color-text);
+}
+.heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.section-worker {
+  background: var(--third-color);
+}
+.section-worker-list {
+  background: var(--secondary-color);
+}
+.workers {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.profession {
+  font-size: 16px;
+  line-height: 1, 5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+.footer {
+  background: var(--main-color);
+}
+.logo-footer {
+  color: var(--secondary-color);
+}
+.text-footer {
+  font-size: 16px;
+  line-height: 1, 5;
+
+  letter-spacing: 0.02em;
+  color: var(--third-color);
+}
+.button-portfolio {
+font-weight: 500;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.04em;
+color: var(--color-logo);
+background: var(--third-color);
+}
+.desc {
+  font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--color-text);
+}
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;*/
