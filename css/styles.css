@@ -55,8 +55,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
-
   color: var(--color-text);
+}
+.contact-header:hover,
+.contact-header:focus {
+  color: var(--button-color);
 }
 .hero {
   background: var(--main-color);
@@ -81,7 +84,7 @@ body {
 }
 .button:hover,
 .button:focus {
-  color: var(--button-color);
+  background-color: var(--button-color);
 }
 
 .features {
@@ -89,13 +92,14 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--main-color);
 }
 .features-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 
-  color: var(--main-color);
+  color: var(--color-text);
 }
 .heading {
   font-weight: 700;
@@ -104,6 +108,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--main-color);
 }
 .section-worker {
   background: var(--third-color);
@@ -130,11 +135,11 @@ body {
   background: var(--main-color);
 }
 .logo-footer {
-  color: var(--secondary-color);
+  color: var(--third-color);
 }
 .text-footer {
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
 
   letter-spacing: 0.02em;
   color: var(--third-color);
