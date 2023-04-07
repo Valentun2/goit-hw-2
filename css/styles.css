@@ -16,13 +16,13 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color-text);
-  background: var(--color-background-main);
+  background: var(--secondary-color);
 }
 .logo {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1,16;
+  line-height: 1.17;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -35,13 +35,24 @@ body {
 .list-nav {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1,5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
+.list-nav:hover,
+.list-nav:focus {
+  color: var(--button-color);
+}
+.address {
+  font-style: normal 
+}
+.address:hover,
+.address:focus {
+  color: var(--button-color);
+}
 .contact-header {
   font-size: 16px;
-  line-height: 1,5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
 
@@ -53,38 +64,43 @@ body {
 .title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1,07;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
 }
 .button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1,5;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--secondary-color);
  background: var(--color-logo);
  cursor: pointer;
 }
+.button:hover,
+.button:focus {
+  color: var(--button-color);
+}
 
 .features {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .features-text {
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 
-  color: var(--color-text);
+  color: var(--main-color);
 }
 .heading {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 11;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -98,16 +114,17 @@ body {
 .workers {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
+  color: var(--main-color);
 }
 .profession {
   font-size: 16px;
   line-height: 1, 5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--color-text);
+
 }
 .footer {
   background: var(--main-color);
